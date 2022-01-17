@@ -47,7 +47,7 @@ class _SignInPageState extends State<SignInPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        resizeToAvoidBottomPadding: false,
+        resizeToAvoidBottomInset: false,
         body: Container(
           height:MediaQuery.of(context).size.height,
           width: MediaQuery.of(context).size.width,
