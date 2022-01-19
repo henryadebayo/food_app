@@ -184,32 +184,3 @@ class _MainScreenState extends State<MainScreen> {
     );
   }
 }
-/* 
-BottomNavigationBar(
-          onTap: (int index) {
-            setState(() {
-              currentTabIndex = index;
-              currentPage = pages[index];
-            });
-          },
-          currentIndex: currentTabIndex,
-          type: BottomNavigationBarType.fixed,
-          items: <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-              icon: Icon(OMIcons.home),
-              title: Text("Home"),
-            ),
-             BottomNavigationBarItem(
-              icon: Icon(OMIcons.explore),
-              title: Text("Explore"),
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(OMIcons.shoppingCart),
-              title: Text("Orders"),
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(OMIcons.person),
-              title: Text("Profile"),
-            ),
-          ],
-        ), */
