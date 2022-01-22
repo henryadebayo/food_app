@@ -71,6 +71,8 @@ class FoodModel extends Model {
           await http.get("https://foodie2-86668.firebaseio.com/foods.json");
 
       List<Food> _foodItems = [];
+
+
       final Map<String, dynamic> fetchedData = json.decode(response.body);
 
       fetchedData.forEach((String id, dynamic foodData) {
